@@ -1,3 +1,4 @@
+
 {raio, _} = IO.gets("") |> Float.parse
 
 circle_area = fn pi, raio -> pi * (:math.pow(raio, 2)) end
